@@ -1,5 +1,5 @@
 # Exercise 1: JavaScript Drum Kit
-##### Target:
+## Target:
 When you press the keyboard, the corresponding sound will play, so does the animation.
 
 ## Skills we need to grasp:
