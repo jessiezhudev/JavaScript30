@@ -57,11 +57,15 @@
     }
 
     .hand {
+      transition: all 0.02s;
+      transition-timing-function: cubic-bezier(0.1, 1.62, 0.58, 1);
+      transform: rotate(90deg);
       width:50%;
       height:6px;
       background:black;
       position: absolute;
       top:50%;
+      transform-origin: 100%;
     }
 
   </style>
