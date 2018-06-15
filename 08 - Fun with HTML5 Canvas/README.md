@@ -48,7 +48,7 @@ Now let's start the real practice
     - When we trigger `mouseup`, it means we've reached the destination, stop drawing here. `isDrawing` shall be false here. Same as `mouseout` event when the mouse moves out of the canvas screen.
 
 4. Let's start `draw` function. To create a complete path we need to know where to start and where to finish. So let's define a `lastX` and `lastY` to always indicate where to start. And update their values when our `mousedown` event begins and `draw` function ends. We use the moving mouse's location `e.offsetX` and `e.offsetY` to indicate where to end the path. 
-5. We use hsl to change the stroke color like a rainbow. To see the effect of hsl https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+5. We use hsl to change the stroke color like a rainbow. 
 6. We also change the `lineWidth`.
 
 Oops, quite a long passage. Need to get a rest and have a digest...
