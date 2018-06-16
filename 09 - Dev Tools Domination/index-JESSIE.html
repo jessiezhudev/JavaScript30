@@ -22,24 +22,43 @@
     // Interpolated
     console.log('This is %s speaking', 'Jessie')
     // Styled
-    console.log('%c This a styled content', 'font-size:40px')
+    console.log('%c This a styled content', 'font-size:40px;background-color:red')
     // warning!
-
+    console.warn('lack of...')
     // Error :|
-
+    console.error('opps, error')
     // Info
-
+    console.info('you should get up at 6')
     // Testing
-
+    console.assert(1===2, 'This is wrong')
+    const p = document.querySelector('p')
+    console.assert(p.classList.contains('ouch'), 'This is wrong')
     // clearing
-
+    // console.clear()
     // Viewing DOM Elements
-
+    console.log(p)
+    console.dir(p)
     // Grouping together
-
+    dogs.forEach((dog)=>{
+      console.group(`${dog.name}`)
+      console.log(`This is ${dog.name}`)
+      console.log(`It is ${dog.age} years old`)
+      console.groupEnd(`${dog.name}`)
+    })
     // counting
+    console.count('joe')
+    console.count('jessie')
+    console.count('jessie')
+    console.count('jessie')
 
     // timing
+    console.time('fetching data')
+    fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data')
+        console.log(data)
+      })
 
   </script>
 </body>
