@@ -2,6 +2,7 @@
 ## Target:
 When you press the keyboard, the corresponding sound will play, so does the animation.
 
+[Online demo](https://jessiezhudev.github.io/javascript30/01drum_kit/index.html)
 ## Skills we need to grasp:
 1. event system: `window.addEventListener`
 2. css animation:
