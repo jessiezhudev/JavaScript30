@@ -42,4 +42,4 @@ Given a restaurant's menu, you type to submit the new dishes to the list. When y
     - We get the index of the `input` clicked by `dataset.index`. And update its status in items.
     - Finally, we need to update the `localStorage` and `populateList` again.
 
-Well, a long passage. And I've learned a lot. And we can see that it keeps rerender the page by `populateList`. If the data is too big, the performance will be compromised. That's what the _React_ and _Vue_ have done - to calculate the minimum changes to improve the performance. 
+Well, a long passage. And I've learned a lot. And we can see that it keeps rerendering the page by `populateList`. If the data is too big, the performance will be compromised. That's what the _React_ and _Vue_ have done - to calculate the minimum changes to improve the performance. 
